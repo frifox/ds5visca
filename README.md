@@ -4,6 +4,10 @@ Control a PTZOptics camera via VISCA over Serial or IP using a PS5 controller.
 
 This projects makes use of 2 packages I wrote to help me interface with DS5 and Visca camera, [frifox/ds5](https://github.com/frifox/ds5) and [frifox/visca](https://github.com/frifox/visca) respectively.
 
+DS5 controller will work over Bluetooth and USB.
+
+For lowest latency, use controller over USB and camera over Serial. When testing inquiry command roundtrip times, VISCA over IP averaged 100ms and VISCA over Serial averaged 20ms.
+
 ## Controls
 
 * Shape buttons recall presets 1-4. Long-pressing those shapes will save current position as that preset.
