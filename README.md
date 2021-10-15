@@ -21,6 +21,4 @@ For lowest latency, use controller over USB and camera over Serial. When testing
   * Green = 50% or higher
   * Yellow = less than 50%
   * Red = less than 10%
-* The 5 LEDs below touchpad identify actual battery level, 1 LED = 10% 
-  * When green: 60% - 100%
-  * When yellow/red: 0% - 40% 
+* The 5 LEDs below touchpad identify battery levels 0% - 40%, each LED = 10% increment 
