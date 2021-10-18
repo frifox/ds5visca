@@ -2,7 +2,7 @@ package main
 
 import "time"
 
-func leftButtons() {
+func mapLeftButtons() {
 	up := &ds.Buttons.DPadUp
 	right := &ds.Buttons.DPadRight
 	down := &ds.Buttons.DPadDown

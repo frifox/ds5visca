@@ -5,7 +5,7 @@ import (
 	"github.com/frifox/ds5"
 )
 
-func rightButtons() {
+func mapRightButtons() {
 	rightButtonsCallSavePreset(1, &ds.Buttons.Square)
 	rightButtonsCallSavePreset(2, &ds.Buttons.Cross)
 	rightButtonsCallSavePreset(3, &ds.Buttons.Triangle)

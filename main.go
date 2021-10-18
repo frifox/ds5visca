@@ -25,11 +25,13 @@ func main() {
 	go runCamera()
 
 	// map controller events to camera commands
-	joysticks()
-	leftButtons()
-	rightButtons()
-	rear()
-	touchpad()
+	mapLeftButtons()
+	mapCenterButtons()
+	mapRightButtons()
+	mapRearButtons()
+
+	mapJoysticks()
+	mapTouchpad()
 
 	select {}
 }

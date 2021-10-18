@@ -2,7 +2,7 @@ package main
 
 import "github.com/frifox/ds5"
 
-func joysticks() {
+func mapJoysticks() {
 	ds.Axis.Left.OnChange = func(j ds5.Joystick) {
 		cam.Zoom.Z = j.Y
 		cam.Apply(&cam.Zoom)

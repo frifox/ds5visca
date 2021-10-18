@@ -1,7 +1,7 @@
 package main
 
-func center() {
-	//ds.Buttons.Options.OnKeyDown = func() {
-	//	cam.Apply(&cam.Focus)
-	//}
+func mapCenterButtons() {
+	ds.Buttons.PS.OnKeyDown = func() {
+		// TODO disconnect bt
+	}
 }

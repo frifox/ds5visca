@@ -6,7 +6,7 @@ import (
 	"github.com/frifox/visca"
 )
 
-func touchpad() {
+func mapTouchpad() {
 	// Touchpad button will be different based on where you click
 	points := map[string]pip.Point{
 		"TL": {0, 0},
