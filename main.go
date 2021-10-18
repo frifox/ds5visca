@@ -24,7 +24,6 @@ func main() {
 	go runPS5()
 	go runCamera()
 
-	// map controller events to camera commands
 	mapLeftButtons()
 	mapCenterButtons()
 	mapRightButtons()
