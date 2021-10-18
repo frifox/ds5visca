@@ -33,7 +33,7 @@ func rightButtonsCallSavePreset(id uint8, button *ds5.Button) {
 	}
 	button.OnLongPress = func() {
 		if ctx.Err() != nil {
-			return
+			return // c
 		}
 		cancel()
 		go doHapticFeedback()

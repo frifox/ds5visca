@@ -18,9 +18,11 @@ func runPS5() {
 	ds.Axis.Right.InvertY = true
 
 	ds.Battery.OnChange = updateBattery
-	ds.Buttons.Mute.OnKeyDown = updateBattery
-	ds.Bus.OnChange = func(b string) {
-		fmt.Printf("Bus is %s\n", b)
+	ds.Buttons.Mute.OnKeyDown = func() {
+		updateBattery(ds.Battery)
+	}
+	ds.Bus.OnChange = func(b ds5.Bus) {
+		fmt.Printf("Bus is %s\n", b.Type)
 	}
 
 	for {
@@ -42,23 +44,22 @@ func runPS5() {
 	}
 }
 
-func updateBattery() {
-	battery := &ds.Battery
+func updateBattery(b ds5.Battery) {
 	lights := &ds.LightBar
 	leds := &ds.PlayerLEDs
 	mic := &ds.Mic
 
-	fmt.Printf("[Battery] %s (%d%%)\n", battery.Status, battery.Percent)
+	fmt.Printf("[Battery] %s (%d%%)\n", b.Status, b.Percent)
 
 	// charge plug indicator
-	switch battery.Status {
+	switch b.Status {
 	case "Charging":
 		mic.LED = true
 	default:
 		mic.LED = false
 	}
 
-	switch p := battery.Percent; {
+	switch p := b.Percent; {
 
 	//case p >= 100:
 	//	lights.SetGreen()

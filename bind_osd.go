@@ -29,7 +29,7 @@ func touchpad() {
 	var button visca.Command
 
 	lastID := uint8(0)
-	ds.Touchpad.Touch1.OnActive = func(t *ds5.Touch) {
+	ds.Touchpad.Touch1.OnActive = func(t ds5.Touch) {
 		if t.ID == lastID {
 			return
 		}

@@ -10,12 +10,16 @@ github.com/frifox/ds5 v0.0.0-20211014022620-7e82824a02d5 h1:ZrXnI3dOnnb7eNWQLbn7
 github.com/frifox/ds5 v0.0.0-20211014022620-7e82824a02d5/go.mod h1:Nwr+ePwAy62CuvpDIGAr/OoUejldhEY4s9jAm3nJJ6U=
 github.com/frifox/ds5 v0.0.0-20211014195238-01f824a74815 h1:3rzqjocc9OgET3HqjY3tRHRHr6OLoT3GMI/+KKVONfI=
 github.com/frifox/ds5 v0.0.0-20211014195238-01f824a74815/go.mod h1:Nwr+ePwAy62CuvpDIGAr/OoUejldhEY4s9jAm3nJJ6U=
+github.com/frifox/ds5 v0.0.0-20211018201553-b66a49cb4bb0 h1:HSnGBJAy/jnB0FJyjtJ9bMwUqOUWm2qN8h6Zh4WAc3g=
+github.com/frifox/ds5 v0.0.0-20211018201553-b66a49cb4bb0/go.mod h1:Nwr+ePwAy62CuvpDIGAr/OoUejldhEY4s9jAm3nJJ6U=
 github.com/frifox/visca v0.0.0-20211014022557-c953da941fdb h1:jefYfzzK7rVyrEjZ5bNCThF6/HrcjLITa7jVTsF1FAI=
 github.com/frifox/visca v0.0.0-20211014022557-c953da941fdb/go.mod h1:92ySEkO9J96xsSfU3vBK0lxoFQ01Cdo+UN27pVAW0b0=
 github.com/frifox/visca v0.0.0-20211014194227-560dc1fccbb6 h1:q7iCD0g2ubsz+nsZncwC/OkbjuR1v+Uh5rKz6NM/aQk=
 github.com/frifox/visca v0.0.0-20211014194227-560dc1fccbb6/go.mod h1:92ySEkO9J96xsSfU3vBK0lxoFQ01Cdo+UN27pVAW0b0=
 github.com/frifox/visca v0.0.0-20211014234248-6d1f0bb19f5c h1:2xCCdDJV2BWzztno/ZmJAurPO8/SaGqhFGbyfcjRQKU=
 github.com/frifox/visca v0.0.0-20211014234248-6d1f0bb19f5c/go.mod h1:92ySEkO9J96xsSfU3vBK0lxoFQ01Cdo+UN27pVAW0b0=
+github.com/frifox/visca v0.0.0-20211015040820-683ba8fc9755 h1:CHgfKNe8dnejlcBiwpr7g8ZN2cS11q2I+l9ne2k8/ME=
+github.com/frifox/visca v0.0.0-20211015040820-683ba8fc9755/go.mod h1:92ySEkO9J96xsSfU3vBK0lxoFQ01Cdo+UN27pVAW0b0=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/sstallion/go-hid v0.0.0-20190621001400-1cf4630be9f4 h1:hczfXYN39SDj4FcN5J7sgHBtJm4U7ef2nvlonn6NvVU=
@@ -29,6 +33,8 @@ golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf h1:2ucpDCmfkl8Bd/FsLtiD653Wf
 golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.0.0-20211013075003-97ac67df715c h1:taxlMj0D/1sOAuv/CbSD+MMDof2vbyPTqz5FNYKpXt8=
 golang.org/x/sys v0.0.0-20211013075003-97ac67df715c/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.0.0-20211015200801-69063c4bb744 h1:KzbpndAYEM+4oHRp9JmB2ewj0NHHxO3Z0g7Gus2O1kk=
+golang.org/x/sys v0.0.0-20211015200801-69063c4bb744/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v2 v2.2.2 h1:ZCJp+EgiOT7lHqUV2J862kp8Qj64Jo6az82+3Td9dZw=
 gopkg.in/yaml.v2 v2.2.2/go.mod h1:hI93XBmqTisBFMUTm0b8Fm+jr3Dg1NNxqwp+5A1VGuI=
