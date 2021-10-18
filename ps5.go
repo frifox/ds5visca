@@ -45,11 +45,11 @@ func runPS5() {
 }
 
 func updateBattery(b ds5.Battery) {
+	fmt.Printf("[Battery] %s (%d%%)\n", b.Status, b.Percent)
+
 	lights := &ds.LightBar
 	leds := &ds.PlayerLEDs
 	mic := &ds.Mic
-
-	fmt.Printf("[Battery] %s (%d%%)\n", b.Status, b.Percent)
 
 	// charge plug indicator
 	switch b.Status {
