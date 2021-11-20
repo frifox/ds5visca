@@ -1,7 +1,12 @@
 package main
 
+import "log"
+
 func mapCenterButtons() {
 	ds.Buttons.PS.OnKeyDown = func() {
-		// TODO disconnect bt
+		err := ds.BTDisconnect()
+		if err != nil {
+			log.Printf("ERR BTDisconnect: %v\n", err)
+		}
 	}
 }
